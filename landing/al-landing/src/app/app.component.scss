@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-image: url("https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  height: 50vh;
+
+  button {
+
+    position: relative;
+    background: white;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1C1E20;
+    padding: 0 1rem;
+    height: 56px;
+    color: black;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: #1C1E20;
+  }
+}

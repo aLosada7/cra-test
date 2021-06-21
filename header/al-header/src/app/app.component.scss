@@ -1,0 +1,25 @@
+@mixin toolbarIcons {
+  background-color: #1C1E20;
+  position: absolute;
+  cursor: pointer;
+}
+
+.toolbar-container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #1C1E20;
+
+  &__github-icon {
+    @include toolbarIcons();
+    left: 12px;
+    fill: #FCFCFC;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #FCFCFC;
+}
